@@ -1,0 +1,656 @@
+{
+ "meta": {
+  "token0": "0x90c8889f428f9ebb77bb8f15cad3a50a9ac680df",
+  "token1": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+  "fee": 10000,
+  "dec_fj": 18,
+  "dec_wbnb": 18,
+  "order": "token0=FLAPJAX, token1=WBNB",
+  "window": {
+   "b1": 126536085,
+   "b2": 129222150
+  },
+  "bnb_start_wei": "41296496810000000",
+  "bnb_end_wei": "274736670311426810",
+  "fj_start_wei": "176347089975553481234536800",
+  "fj_end_wei": "839556529557773273684749321",
+  "nonce_start": 29,
+  "nonce_end": 368,
+  "slot0_start": {
+   "sqrtPriceX96": "1606135429112443093943728",
+   "tick": -216136,
+   "liquidity": "1"
+  },
+  "slot0_end": {
+   "sqrtPriceX96": "1629634248404555061269422",
+   "tick": -215846,
+   "liquidity": "1"
+  }
+ },
+ "buys": [
+  {
+   "tx": "0xbeefabdc89f9148f9daaef6082d34a60dc5b4b612972ca0fd39d6bd4eb03b4b0",
+   "block": 126684151,
+   "ts": 1791570653,
+   "utc": "2026-10-09 18:30:53Z",
+   "cot": "2026-10-09 13:30:53",
+   "cot_day": "2026-10-09",
+   "bnb_in_wei": "10000000000000000",
+   "fj_out_wei": "24052995308271524768278040",
+   "bnb_in": "0.01",
+   "fj_out": "24052995.30827152476827804",
+   "eff_price_bnb_per_fj": "4.15748636368840302267772742029327168182942031041167638248080E-10",
+   "slot0_before_block": 126684150,
+   "slot0_before": {
+    "sqrtPriceX96": "1606135429112443093943728",
+    "tick": -216136,
+    "liquidity": "1"
+   },
+   "slot0_at": {
+    "sqrtPriceX96": "1608581365641654593218424",
+    "tick": -216106,
+    "liquidity": "1"
+   },
+   "pool_price_before_bnb_per_fj": "4.10965303000828189953985238057882144659663659564464939687513E-10",
+   "pool_price_at_bnb_per_fj": "4.12217950093519348772887089944950354407248136516501893095635E-10",
+   "receipt": {
+    "tx_from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+    "tx_to": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+    "value_wei": "10000000000000000",
+    "status": "0x1",
+    "gasUsed": "127482",
+    "block": 126684151,
+    "fj_transfers": [
+     {
+      "from": "0xca93ec685b8623688e6b236f9068034b298c2150",
+      "to": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "value": "24052995308271524768278040"
+     }
+    ],
+    "logs_n": 4
+   },
+   "treasury_bnb_before_wei": "186859486410000000",
+   "treasury_bnb_after_wei": "176853112310000000",
+   "treasury_fj_before_wei": "175847089975553481234536800",
+   "treasury_fj_after_wei": "199900085283825006002814840",
+   "treasury_nonce_before": 30,
+   "treasury_nonce_after": 31
+  },
+  {
+   "tx": "0x8ce8e8578da26f8c7acb0f44c6ca0d0b8dcba868cafe2d729bb48562863f2d62",
+   "block": 126875701,
+   "ts": 1791656876,
+   "utc": "2026-10-10 18:27:56Z",
+   "cot": "2026-10-10 13:27:56",
+   "cot_day": "2026-10-10",
+   "bnb_in_wei": "10000000000000000",
+   "fj_out_wei": "23979958557395636288483739",
+   "bnb_in": "0.01",
+   "fj_out": "23979958.557395636288483739",
+   "eff_price_bnb_per_fj": "4.17014899173623028586643071868062587429421984851988386859957E-10",
+   "slot0_before_block": 126875700,
+   "slot0_before": {
+    "sqrtPriceX96": "1608581365641654593218424",
+    "tick": -216106,
+    "liquidity": "1"
+   },
+   "slot0_at": {
+    "sqrtPriceX96": "1611027302170866092493120",
+    "tick": -216076,
+    "liquidity": "1"
+   },
+   "pool_price_before_bnb_per_fj": "4.12217950093519348772887089944950354407248136516501893095635E-10",
+   "pool_price_at_bnb_per_fj": "4.13472503354297988065348188186272095621062544816204257581662E-10",
+   "receipt": {
+    "tx_from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+    "tx_to": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+    "value_wei": "10000000000000000",
+    "status": "0x1",
+    "gasUsed": "127482",
+    "block": 126875701,
+    "fj_transfers": [
+     {
+      "from": "0xca93ec685b8623688e6b236f9068034b298c2150",
+      "to": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "value": "23979958557395636288483739"
+     }
+    ],
+    "logs_n": 4
+   },
+   "treasury_bnb_before_wei": "164703604959380905",
+   "treasury_bnb_after_wei": "154697230859380905",
+   "treasury_fj_before_wei": "199150085283825006002814840",
+   "treasury_fj_after_wei": "223130043841220642291298579",
+   "treasury_nonce_before": 47,
+   "treasury_nonce_after": 48
+  },
+  {
+   "tx": "0x82d01172ae26f1c86287643e123af1675ca5c18b984b7740c1a0c1647d2801eb",
+   "block": 127067713,
+   "ts": 1791743435,
+   "utc": "2026-10-11 18:30:35Z",
+   "cot": "2026-10-11 13:30:35",
+   "cot_day": "2026-10-11",
+   "bnb_in_wei": "10000000000000000",
+   "fj_out_wei": "23907253965589989685035768",
+   "bnb_in": "0.01",
+   "fj_out": "23907253.965589989685035768",
+   "eff_price_bnb_per_fj": "4.18283087400716341242441925411899574376813218082767669891325E-10",
+   "slot0_before_block": 127067712,
+   "slot0_before": {
+    "sqrtPriceX96": "1611027302170866092493120",
+    "tick": -216076,
+    "liquidity": "1"
+   },
+   "slot0_at": {
+    "sqrtPriceX96": "1613473238700077591767816",
+    "tick": -216045,
+    "liquidity": "1"
+   },
+   "pool_price_before_bnb_per_fj": "4.13472503354297988065348188186272095621062544816204257581662E-10",
+   "pool_price_at_bnb_per_fj": "4.14728962783164107831368532781847368301106884463572033145602E-10",
+   "receipt": {
+    "tx_from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+    "tx_to": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+    "value_wei": "10000000000000000",
+    "status": "0x1",
+    "gasUsed": "127554",
+    "block": 127067713,
+    "fj_transfers": [
+     {
+      "from": "0xca93ec685b8623688e6b236f9068034b298c2150",
+      "to": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "value": "23907253965589989685035768"
+     }
+    ],
+    "logs_n": 4
+   },
+   "treasury_bnb_before_wei": "154646461259380905",
+   "treasury_bnb_after_wei": "144640083559380905",
+   "treasury_fj_before_wei": "213330043841220642291298579",
+   "treasury_fj_after_wei": "237237297806810631976334347",
+   "treasury_nonce_before": 72,
+   "treasury_nonce_after": 73
+  },
+  {
+   "tx": "0x9afdc96e3ca876b5b617a26ba5105012ed8c33e805c77b1616bf48c198d5cbf1",
+   "block": 127261246,
+   "ts": 1791830787,
+   "utc": "2026-10-12 18:46:27Z",
+   "cot": "2026-10-12 13:46:27",
+   "cot_day": "2026-10-12",
+   "bnb_in_wei": "10000000000000000",
+   "fj_out_wei": "23834879521763892137228328",
+   "bnb_in": "0.01",
+   "fj_out": "23834879.521763892137228328",
+   "eff_price_bnb_per_fj": "4.19553201050120240235169312156659979005874715331594285865853E-10",
+   "slot0_before_block": 127261245,
+   "slot0_before": {
+    "sqrtPriceX96": "1613473238700077591767816",
+    "tick": -216045,
+    "liquidity": "1"
+   },
+   "slot0_at": {
+    "sqrtPriceX96": "1615919175229289091042512",
+    "tick": -216015,
+    "liquidity": "1"
+   },
+   "pool_price_before_bnb_per_fj": "4.14728962783164107831368532781847368301106884463572033145602E-10",
+   "pool_price_at_bnb_per_fj": "4.15987328380117708070948123731676172447381155458605219787452E-10",
+   "receipt": {
+    "tx_from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+    "tx_to": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+    "value_wei": "10000000000000000",
+    "status": "0x1",
+    "gasUsed": "127528",
+    "block": 127261246,
+    "fj_transfers": [
+     {
+      "from": "0xca93ec685b8623688e6b236f9068034b298c2150",
+      "to": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "value": "23834879521763892137228328"
+     }
+    ],
+    "logs_n": 4
+   },
+   "treasury_bnb_before_wei": "142613528959380905",
+   "treasury_bnb_after_wei": "132607152559380905",
+   "treasury_fj_before_wei": "231707297806810631976334347",
+   "treasury_fj_after_wei": "255542177328574524113562675",
+   "treasury_nonce_before": 87,
+   "treasury_nonce_after": 88
+  },
+  {
+   "tx": "0xc94de373d1fb00093431224a97475b3b2b48b9a4962d15acbe9d9c5c016d720c",
+   "block": 127452454,
+   "ts": 1791916875,
+   "utc": "2026-10-13 18:41:15Z",
+   "cot": "2026-10-13 13:41:15",
+   "cot_day": "2026-10-13",
+   "bnb_in_wei": "10000000000000000",
+   "fj_out_wei": "23762833230024087278551319",
+   "bnb_in": "0.01",
+   "fj_out": "23762833.230024087278551319",
+   "eff_price_bnb_per_fj": "4.20825240121834725564825237067765952941868915846344582883499E-10",
+   "slot0_before_block": 127452453,
+   "slot0_before": {
+    "sqrtPriceX96": "1615919175229289091042512",
+    "tick": -216015,
+    "liquidity": "1"
+   },
+   "slot0_at": {
+    "sqrtPriceX96": "1618365111758500590317208",
+    "tick": -215985,
+    "liquidity": "1"
+   },
+   "pool_price_before_bnb_per_fj": "4.15987328380117708070948123731676172447381155458605219787452E-10",
+   "pool_price_at_bnb_per_fj": "4.17247600145158788784086961035758508059885357801303817507212E-10",
+   "receipt": {
+    "tx_from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+    "tx_to": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+    "value_wei": "10000000000000000",
+    "status": "0x1",
+    "gasUsed": "127526",
+    "block": 127452454,
+    "fj_transfers": [
+     {
+      "from": "0xca93ec685b8623688e6b236f9068034b298c2150",
+      "to": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "value": "23762833230024087278551319"
+     }
+    ],
+    "logs_n": 4
+   },
+   "treasury_bnb_before_wei": "128270955846597688",
+   "treasury_bnb_after_wei": "118264579546597688",
+   "treasury_fj_before_wei": "250492177328574524113562675",
+   "treasury_fj_after_wei": "274255010558598611392113994",
+   "treasury_nonce_before": 104,
+   "treasury_nonce_after": 105
+  },
+  {
+   "tx": "0x172349c64ed3c45663650049f9e2ad3d763b1243c5c849b7d66f144f221d3186",
+   "block": 127643212,
+   "ts": 1792002749,
+   "utc": "2026-10-14 18:32:29Z",
+   "cot": "2026-10-14 13:32:29",
+   "cot_day": "2026-10-14",
+   "bnb_in_wei": "10000000000000000",
+   "fj_out_wei": "23691113109537150143912753",
+   "bnb_in": "0.01",
+   "fj_out": "23691113.109537150143912753",
+   "eff_price_bnb_per_fj": "4.22099204615859797231409703559085624563056854664905209748826E-10",
+   "slot0_before_block": 127643211,
+   "slot0_before": {
+    "sqrtPriceX96": "1618365111758500590317208",
+    "tick": -215985,
+    "liquidity": "1"
+   },
+   "slot0_at": {
+    "sqrtPriceX96": "1620811048287712089591904",
+    "tick": -215955,
+    "liquidity": "1"
+   },
+   "pool_price_before_bnb_per_fj": "4.17247600145158788784086961035758508059885357801303817507212E-10",
+   "pool_price_at_bnb_per_fj": "4.18509778078287349970785044694094375138619491491667826304880E-10",
+   "receipt": {
+    "tx_from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+    "tx_to": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+    "value_wei": "10000000000000000",
+    "status": "0x1",
+    "gasUsed": "127526",
+    "block": 127643212,
+    "fj_transfers": [
+     {
+      "from": "0xca93ec685b8623688e6b236f9068034b298c2150",
+      "to": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "value": "23691113109537150143912753"
+     }
+    ],
+    "logs_n": 4
+   },
+   "treasury_bnb_before_wei": "116954348228579177",
+   "treasury_bnb_after_wei": "106947971928579177",
+   "treasury_fj_before_wei": "246705010558598611392113994",
+   "treasury_fj_after_wei": "270396123668135761536026747",
+   "treasury_nonce_before": 137,
+   "treasury_nonce_after": 138
+  },
+  {
+   "tx": "0xc999000f16f326e8868fe37f83871219be1a63f98043b0aef9ee57f469232156",
+   "block": 128086717,
+   "ts": 1792202451,
+   "utc": "2026-10-17 02:00:51Z",
+   "cot": "2026-10-16 21:00:51",
+   "cot_day": "2026-10-16",
+   "bnb_in_wei": "10000000000000000",
+   "fj_out_wei": "23669235465921230581203552",
+   "bnb_in": "0.01",
+   "fj_out": "23669235.465921230581203552",
+   "eff_price_bnb_per_fj": "4.22489353929404153102302234673498149076859298985018585140848E-10",
+   "slot0_before_block": 128086716,
+   "slot0_before": {
+    "sqrtPriceX96": "1619113436873756255193846",
+    "tick": -215975,
+    "liquidity": "1"
+   },
+   "slot0_at": {
+    "sqrtPriceX96": "1621559373402967754468542",
+    "tick": -215945,
+    "liquidity": "1"
+   },
+   "pool_price_before_bnb_per_fj": "4.17633556373076088009023386675838434659071591200871874986775E-10",
+   "pool_price_at_bnb_per_fj": "4.18896317491187875370215734383899037515051244358162198780156E-10",
+   "receipt": {
+    "tx_from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+    "tx_to": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+    "value_wei": "10000000000000000",
+    "status": "0x1",
+    "gasUsed": "126524",
+    "block": 128086717,
+    "fj_transfers": [
+     {
+      "from": "0xca93ec685b8623688e6b236f9068034b298c2150",
+      "to": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "value": "23669235465921230581203552"
+     }
+    ],
+    "logs_n": 4
+   },
+   "treasury_bnb_before_wei": "104220035654798180",
+   "treasury_bnb_after_wei": "94213709454798180",
+   "treasury_fj_before_wei": "243096123668135761536026747",
+   "treasury_fj_after_wei": "266765359134056992117230299",
+   "treasury_nonce_before": 162,
+   "treasury_nonce_after": 163
+  },
+  {
+   "tx": "0x6ec66780e0518da7c3c8b55d13b66d57400046f89ebe9df479c3c878f7b3311f",
+   "block": 128178495,
+   "ts": 1792243767,
+   "utc": "2026-10-17 13:29:27Z",
+   "cot": "2026-10-17 08:29:27",
+   "cot_day": "2026-10-17",
+   "bnb_in_wei": "10000000000000000",
+   "fj_out_wei": "23597938349722733902073707",
+   "bnb_in": "0.01",
+   "fj_out": "23597938.349722733902073707",
+   "eff_price_bnb_per_fj": "4.23765832921480443605304372478564774130052512582355035726755E-10",
+   "slot0_before_block": 128178494,
+   "slot0_before": {
+    "sqrtPriceX96": "1621559373402967754468542",
+    "tick": -215945,
+    "liquidity": "1"
+   },
+   "slot0_at": {
+    "sqrtPriceX96": "1624005309932179253743238",
+    "tick": -215915,
+    "liquidity": "1"
+   },
+   "pool_price_before_bnb_per_fj": "4.18896317491187875370215734383899037515051244358162198780156E-10",
+   "pool_price_at_bnb_per_fj": "4.20160984777387143204967328446213171837260828863117933651446E-10",
+   "receipt": {
+    "tx_from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+    "tx_to": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+    "value_wei": "10000000000000000",
+    "status": "0x1",
+    "gasUsed": "127514",
+    "block": 128178495,
+    "fj_transfers": [
+     {
+      "from": "0xca93ec685b8623688e6b236f9068034b298c2150",
+      "to": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "value": "23597938349722733902073707"
+     }
+    ],
+    "logs_n": 4
+   },
+   "treasury_bnb_before_wei": "94180148654798180",
+   "treasury_bnb_after_wei": "84173772954798180",
+   "treasury_fj_before_wei": "257915359134056992117230299",
+   "treasury_fj_after_wei": "281513297483779726019304006",
+   "treasury_nonce_before": 179,
+   "treasury_nonce_after": 180
+  },
+  {
+   "tx": "0x05a9acf81b0eae4b7ff9a12168aead25964b6b2c0a16d3d1e667b7db6f17ad99",
+   "block": 128370339,
+   "ts": 1792330119,
+   "utc": "2026-10-18 13:28:39Z",
+   "cot": "2026-10-18 08:28:39",
+   "cot_day": "2026-10-18",
+   "bnb_in_wei": "10000000000000000",
+   "fj_out_wei": "23506585156697207098877431",
+   "bnb_in": "0.01",
+   "fj_out": "23506585.156697207098877431",
+   "eff_price_bnb_per_fj": "4.25412705985961682976234429031456688260099347131473467500624E-10",
+   "slot0_before_block": 128370338,
+   "slot0_before": {
+    "sqrtPriceX96": "1624709607920950559050068",
+    "tick": -215906,
+    "liquidity": "1"
+   },
+   "slot0_at": {
+    "sqrtPriceX96": "1627155544450162058324764",
+    "tick": -215876,
+    "liquidity": "1"
+   },
+   "pool_price_before_bnb_per_fj": "4.20525494304106538782989415519285244578379038547578529525874E-10",
+   "pool_price_at_bnb_per_fj": "4.21792616632141333746634801023055915494281109214900067533610E-10",
+   "receipt": {
+    "tx_from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+    "tx_to": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+    "value_wei": "10000000000000000",
+    "status": "0x1",
+    "gasUsed": "127502",
+    "block": 128370339,
+    "fj_transfers": [
+     {
+      "from": "0xca93ec685b8623688e6b236f9068034b298c2150",
+      "to": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "value": "23506585156697207098877431"
+     }
+    ],
+    "logs_n": 4
+   },
+   "treasury_bnb_before_wei": "84095910954798180",
+   "treasury_bnb_after_wei": "74089535854798180",
+   "treasury_fj_before_wei": "265963297483779726019304006",
+   "treasury_fj_after_wei": "289469882640476933118181437",
+   "treasury_nonce_before": 216,
+   "treasury_nonce_after": 217
+  },
+  {
+   "tx": "0xd5210869e5cec642146b3f39590647b313d102f70a51b7c7bbf0c287ceff095d",
+   "block": 128530306,
+   "ts": 1792402127,
+   "utc": "2026-10-19 09:28:47Z",
+   "cot": "2026-10-19 04:28:47",
+   "cot_day": "2026-10-19",
+   "bnb_in_wei": "10000000000000000",
+   "fj_out_wei": "23545510421021461800775637",
+   "bnb_in": "0.01",
+   "fj_out": "23545510.421021461800775637",
+   "eff_price_bnb_per_fj": "4.24709416835236122873275518847682333487712672579853163934272E-10",
+   "slot0_before_block": 128530305,
+   "slot0_before": {
+    "sqrtPriceX96": "1623365062876947014004119",
+    "tick": -215923,
+    "liquidity": "1"
+   },
+   "slot0_at": {
+    "sqrtPriceX96": "1625810999406158513278815",
+    "tick": -215893,
+    "liquidity": "1"
+   },
+   "pool_price_before_bnb_per_fj": "4.19829761960538630532831463597694206526236968996200400570920E-10",
+   "pool_price_at_bnb_per_fj": "4.21095836457272632992934254934252205185830713057546506500818E-10",
+   "receipt": {
+    "tx_from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+    "tx_to": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+    "value_wei": "10000000000000000",
+    "status": "0x1",
+    "gasUsed": "127526",
+    "block": 128530306,
+    "fj_transfers": [
+     {
+      "from": "0xca93ec685b8623688e6b236f9068034b298c2150",
+      "to": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "value": "23545510421021461800775637"
+     }
+    ],
+    "logs_n": 4
+   },
+   "treasury_bnb_before_wei": "71686772029709148",
+   "treasury_bnb_after_wei": "61680395729709148",
+   "treasury_fj_before_wei": "274919882640476933118181437",
+   "treasury_fj_after_wei": "298465393061498394918957074",
+   "treasury_nonce_before": 252,
+   "treasury_nonce_after": 253
+  },
+  {
+   "tx": "0xe9ea4a165aae8eb4228ef073a93c4c1983894104a426e9f5d64b0214cfde3369",
+   "block": 128754269,
+   "ts": 1792502946,
+   "utc": "2026-10-20 13:29:06Z",
+   "cot": "2026-10-20 08:29:06",
+   "cot_day": "2026-10-20",
+   "bnb_in_wei": "10000000000000000",
+   "fj_out_wei": "23439984330262304385516624",
+   "bnb_in": "0.01",
+   "fj_out": "23439984.330262304385516624",
+   "eff_price_bnb_per_fj": "4.26621445607770819011534716601176332213647176976281599211406E-10",
+   "slot0_before_block": 128754268,
+   "slot0_before": {
+    "sqrtPriceX96": "1627017876961711421906087",
+    "tick": -215878,
+    "liquidity": "1"
+   },
+   "slot0_at": {
+    "sqrtPriceX96": "1628750862505104629610833",
+    "tick": -215857,
+    "liquidity": "1"
+   },
+   "pool_price_before_bnb_per_fj": "4.21721247089190794031924665037967343915729080573916561254045E-10",
+   "pool_price_at_bnb_per_fj": "4.22620101432481113416035789755981654863077822168304647749832E-10",
+   "receipt": {
+    "tx_from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+    "tx_to": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+    "value_wei": "10000000000000000",
+    "status": "0x1",
+    "gasUsed": "127510",
+    "block": 128754269,
+    "fj_transfers": [
+     {
+      "from": "0xca93ec685b8623688e6b236f9068034b298c2150",
+      "to": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "value": "23439984330262304385516624"
+     }
+    ],
+    "logs_n": 4
+   },
+   "treasury_bnb_before_wei": "56236887533772485",
+   "treasury_bnb_after_wei": "46230512033772485",
+   "treasury_fj_before_wei": "258365393061498394918957074",
+   "treasury_fj_after_wei": "281805377391760699304473698",
+   "treasury_nonce_before": 284,
+   "treasury_nonce_after": 285
+  },
+  {
+   "tx": "0xbf984ef91d8df34f75998aa40bb539db84085cc1f1654cd5106de7e3db0be48f",
+   "block": 128946201,
+   "ts": 1792589369,
+   "utc": "2026-10-21 13:29:29Z",
+   "cot": "2026-10-21 08:29:29",
+   "cot_day": "2026-10-21",
+   "bnb_in_wei": "10000000000000000",
+   "fj_out_wei": "23429832734674528495339286",
+   "bnb_in": "0.01",
+   "fj_out": "23429832.734674528495339286",
+   "eff_price_bnb_per_fj": "4.26806290648447229967645270375921936370946129811899445685063E-10",
+   "slot0_before_block": 128946200,
+   "slot0_before": {
+    "sqrtPriceX96": "1627370577798273377083282",
+    "tick": -215874,
+    "liquidity": "1"
+   },
+   "slot0_at": {
+    "sqrtPriceX96": "1629816514327484876357978",
+    "tick": -215844,
+    "liquidity": "1"
+   },
+   "pool_price_before_bnb_per_fj": "4.21904106245992512992797997900021147301218308658965526521435E-10",
+   "pool_price_at_bnb_per_fj": "4.23173302321976742579819343263678459557519969300554904055729E-10",
+   "receipt": {
+    "tx_from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+    "tx_to": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+    "value_wei": "10000000000000000",
+    "status": "0x1",
+    "gasUsed": "127496",
+    "block": 128946201,
+    "fj_transfers": [
+     {
+      "from": "0xca93ec685b8623688e6b236f9068034b298c2150",
+      "to": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "value": "23429832734674528495339286"
+     }
+    ],
+    "logs_n": 4
+   },
+   "treasury_bnb_before_wei": "46164984833772485",
+   "treasury_bnb_after_wei": "36158610033772485",
+   "treasury_fj_before_wei": "257895377391760699304473698",
+   "treasury_fj_after_wei": "281325210126435227799812984",
+   "treasury_nonce_before": 318,
+   "treasury_nonce_after": 319
+  },
+  {
+   "tx": "0x594519c2b2179e7a31f25221de1c979f5b87027641bd846c1c7029e5f7e297b2",
+   "block": 129177690,
+   "ts": 1792693588,
+   "utc": "2026-10-22 18:26:28Z",
+   "cot": "2026-10-22 13:26:28",
+   "cot_day": "2026-10-22",
+   "bnb_in_wei": "10000000000000000",
+   "fj_out_wei": "23435077971601885884936337",
+   "bnb_in": "0.01",
+   "fj_out": "23435077.971601885884936337",
+   "eff_price_bnb_per_fj": "4.26710762904982903794968341534532014457738669750482823230157E-10",
+   "slot0_before_block": 129177689,
+   "slot0_before": {
+    "sqrtPriceX96": "1627188311875343561994726",
+    "tick": -215876,
+    "liquidity": "1"
+   },
+   "slot0_at": {
+    "sqrtPriceX96": "1629634248404555061269422",
+    "tick": -215846,
+    "liquidity": "1"
+   },
+   "pool_price_before_bnb_per_fj": "4.21809604801733341026065688720272750096316818970238425170077E-10",
+   "pool_price_at_bnb_per_fj": "4.23078658834176548724651336840563957081603779480900053987034E-10",
+   "receipt": {
+    "tx_from": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+    "tx_to": "0x1b81d678ffb9c0263b24a97847620c99d213eb14",
+    "value_wei": "10000000000000000",
+    "status": "0x1",
+    "gasUsed": "126536",
+    "block": 129177690,
+    "fj_transfers": [
+     {
+      "from": "0xca93ec685b8623688e6b236f9068034b298c2150",
+      "to": "0x7c34e9e21ee28a49ff0b84b61774119e6633359f",
+      "value": "23435077971601885884936337"
+     }
+    ],
+    "logs_n": 4
+   },
+   "treasury_bnb_before_wei": "284742997111426810",
+   "treasury_bnb_after_wei": "274736670311426810",
+   "treasury_fj_before_wei": "816121451586171387799812984",
+   "treasury_fj_after_wei": "839556529557773273684749321",
+   "treasury_nonce_before": 367,
+   "treasury_nonce_after": 368
+  }
+ ]
+}
